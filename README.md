@@ -2,7 +2,7 @@
 
 Small script to check function-calling datasets (OpenAI `tools` format) before using them for training or evals.
 
-I made this because my own tool-use taks had a lot of dumb mistakes. Typos in tool names, numbers as strings, args that are not in the schema, a JSON line missing a brace. It is easy to miss them by hand when the file has hundreds of lines.
+I made this because my own tool-use tasks had a lot of dumb mistakes. Typos in tool names, numbers as strings, args that are not in the schema, a JSON line missing a brace. It is easy to miss them by hand when the file has hundreds of lines.
 
 ## What it does
 
